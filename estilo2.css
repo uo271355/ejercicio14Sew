@@ -1,0 +1,44 @@
+body{
+	box-sizing: border-box;
+}
+nav{
+	
+	overflow:hidden;
+}
+figure{
+	float:left;
+}
+ul{
+
+  overflow: hidden;
+}
+ul li{
+	float:left;
+}
+nav a{
+	float:left;
+	display:block;
+}
+p img{
+	float:left;
+}
+.submenuContent{
+  display: none;
+  z-index: 1;
+}
+
+.submenuContent a{
+  display: block;
+}
+ul li.s{
+	display:inline-block;
+}
+
+ul li a, .submenu{
+  display: inline-block;
+}
+
+.s:hover .submenuContent{
+	display:block;
+}
+
